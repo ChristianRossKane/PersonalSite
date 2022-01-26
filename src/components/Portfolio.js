@@ -205,9 +205,10 @@ const projects = [
     some people only had to take a single programming class for their major and
     others were brilliant people who had been coding longer than I have, they
     just needed help troubleshooting. It was a wonderful experience and it
-    was a difficult decision to not return to it my final semester.`,
+    was a difficult decision to not return to it my final semester. Linked is my
+    personal website I created and used as a Peer Teacher.`,
     image: f21,
-    link: "",
+    link: "http://people.tamu.edu/~christiankane/index.html",
   },
   {
     name: "Senior Capstone Design",
