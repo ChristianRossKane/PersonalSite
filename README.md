@@ -1,66 +1,10 @@
-## Material UI Portfolio
+## Christian Kane's Personal Website
 
-A portfolio single page application using React and Material UI
+This is a place where I have compiled all relevant coursework and projects, alongside containing a .pdf of my resume.
 
-### Demo of this site available here 
+I decided it was time to have a visually appealing place to display some of my work over the past few years. If you have any questions or want to reach out to me, my email is christiankane@tamu.edu.
 
-Put my link to my site here
+## Source
 
-#### Installing
-
-Clone the repository using following command or download
-
-```
-git clone ...myrepo...
-```
-
-#### To install dependency
-
-```
-npm install
-```
-
-#### To start the server
-
-```
-npm start
-```
-
-#### For Production Build
-
-```
-npm run build
-```
-
-Server will be available at http://127.0.0.1:3000 in your browser
-
-# Project snapshot
-
-## Home page
-
-![image](https://user-images.githubusercontent.com/19981097/86140838-218ec980-bb13-11ea-87c5-504d68c8d2a4.png)
-
-## Sidebar
-
-![image](https://user-images.githubusercontent.com/19981097/86140963-4aaf5a00-bb13-11ea-854e-012077dd6101.png)
-
-## Resume
-
-![image](https://user-images.githubusercontent.com/19981097/86141072-6fa3cd00-bb13-11ea-98d4-459d59af8a15.png)
-
-## Portfolio
-
-![image](https://user-images.githubusercontent.com/19981097/86141235-9f52d500-bb13-11ea-9d7b-44b982a6fd3f.png)
-
-## Contact
-
-![image](https://user-images.githubusercontent.com/19981097/86141330-bf829400-bb13-11ea-9070-ecd62027078f.png)
-
-## Author
-
-<blockquote>
-Mahmudul alam
-Email: expelmahmud@gmail.com
-</blockquote>
-
-========Thank You !!!=========
+This website was designed based on a free, open-source template by Mahmudul Alam (https://github.com/devmahmud/material-ui-portfolio). See
+license for more information, and thank you Mahmudul for letting React noobs put their skills to the test!
