@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     marginTop: "1rem",
-    color: "tomato",
+    color: "tan",
     borderColor: "tan",
   },
   field: {

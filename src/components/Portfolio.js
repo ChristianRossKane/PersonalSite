@@ -244,7 +244,7 @@ const Portfolio = () => {
       <Typography style={{ color: 'Maroon' }} className={classes.title} variant="h4">
         <Typed strings={["My Fundamental Courseload"]} typeSpeed={40} />
       </Typography>
-      <Typography style={{ color: 'Maroon' }} className={classes.title} variant="h5">
+      <Typography style={{ color: 'black' }} className={classes.title} variant="h5">
         <Typed strings={["and relevant work w/ projects..."]} typeSpeed={40} />
       </Typography>
     </center>
