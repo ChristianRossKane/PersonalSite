@@ -2,10 +2,15 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
+import resume from "../kane_resume.pdf";
+import resumepic from "../0001.jpg";
+import Typed from "react-typed";
+
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
     background: "#233",
+    width: "30%"
   },
   timeLine: {
     position: "relative",
@@ -112,126 +117,147 @@ const useStyles = makeStyles((theme) => ({
 const Resume = () => {
   const classes = useStyles();
   return (
-    <Box component="header" className={classes.mainContainer}>
-      <Typography variant="h4" align="center" className={classes.heading}>
-        Working Experience
+  
+    <>
+      <center>
+      <br></br>
+      <Typography style={{ color: 'Maroon' }} className={classes.title} variant="h4">
+        <Typed strings={["My Resume"]} typeSpeed={40} />
       </Typography>
-      <Box component="div" className={classes.timeLine}>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2013
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            web design
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
-          </Typography>
-        </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2014
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            html & css
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
-          </Typography>
-        </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2015
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            Fullstack Javascript
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
-          </Typography>
-        </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2017
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            Django & React
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
-          </Typography>
-        </Box>
-      </Box>
-    </Box>
-  );
+      <Typography style={{ color: 'Maroon' }} className={classes.title} variant="h6">
+        <Typed strings={["Click to Download"]} typeSpeed={40} />
+      </Typography>
+      <br></br>
+      <div style={{ maxWidth: 900}}>
+      <a href={resume} style={{color: 'Black'}} download>
+        <img src={resumepic} border="8px"width="80%" alt="Download Resume"/>
+      </a>
+      </div>
+      </center>
+      <br></br>
+      <br></br>
+    </>
+
+    // <Box component="header" className={classes.mainContainer}>
+    //   <Typography variant="h4" align="center" className={classes.heading}>
+    //     Resume
+    //   </Typography>
+    //   <Box component="div" className={classes.timeLine}>
+    //     <Typography
+    //       variant="h2"
+    //       className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+    //     >
+    //       2013
+    //     </Typography>
+    //     <Box component="div" className={classes.timeLineItem}>
+    //       <Typography
+    //         variant="h5"
+    //         align="center"
+    //         className={classes.subHeading}
+    //       >
+    //         web design
+    //       </Typography>
+    //       <Typography variant="body1" align="center" className={classes.body1}>
+    //         company name where worked
+    //       </Typography>
+    //       <Typography
+    //         variant="subtitle1"
+    //         align="center"
+    //         className={classes.subtitle1}
+    //       >
+    //         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
+    //         ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
+    //         Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
+    //         repudiandae, rerum necessitatibus nisi mollitia.
+    //       </Typography>
+    //     </Box>
+    //     <Typography
+    //       variant="h2"
+    //       className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+    //     >
+    //       2014
+    //     </Typography>
+    //     <Box component="div" className={classes.timeLineItem}>
+    //       <Typography
+    //         variant="h5"
+    //         align="center"
+    //         className={classes.subHeading}
+    //       >
+    //         html & css
+    //       </Typography>
+    //       <Typography variant="body1" align="center" className={classes.body1}>
+    //         company name where worked
+    //       </Typography>
+    //       <Typography
+    //         variant="subtitle1"
+    //         align="center"
+    //         className={classes.subtitle1}
+    //       >
+    //         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
+    //         ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
+    //         Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
+    //         repudiandae, rerum necessitatibus nisi mollitia.
+    //       </Typography>
+    //     </Box>
+    //     <Typography
+    //       variant="h2"
+    //       className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+    //     >
+    //       2015
+    //     </Typography>
+    //     <Box component="div" className={classes.timeLineItem}>
+    //       <Typography
+    //         variant="h5"
+    //         align="center"
+    //         className={classes.subHeading}
+    //       >
+    //         Fullstack Javascript
+    //       </Typography>
+    //       <Typography variant="body1" align="center" className={classes.body1}>
+    //         company name where worked
+    //       </Typography>
+    //       <Typography
+    //         variant="subtitle1"
+    //         align="center"
+    //         className={classes.subtitle1}
+    //       >
+    //         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
+    //         ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
+    //         Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
+    //         repudiandae, rerum necessitatibus nisi mollitia.
+    //       </Typography>
+    //     </Box>
+    //     <Typography
+    //       variant="h2"
+    //       className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+    //     >
+    //       2017
+    //     </Typography>
+    //     <Box component="div" className={classes.timeLineItem}>
+    //       <Typography
+    //         variant="h5"
+    //         align="center"
+    //         className={classes.subHeading}
+    //       >
+    //         Django & React
+    //       </Typography>
+    //       <Typography variant="body1" align="center" className={classes.body1}>
+    //         company name where worked
+    //       </Typography>
+    //       <Typography
+    //         variant="subtitle1"
+    //         align="center"
+    //         className={classes.subtitle1}
+    //       >
+    //         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
+    //         ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
+    //         Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
+    //         repudiandae, rerum necessitatibus nisi mollitia.
+    //       </Typography>
+    //     </Box>
+    //   </Box>
+    // </Box>
+    );
 };
 
 export default Resume;

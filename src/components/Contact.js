@@ -5,12 +5,11 @@ import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
-
+import Typed from "react-typed";
 import Send from "@material-ui/icons/Send";
 
 const useStyles = makeStyles((theme) => ({
   contactContainer: {
-    background: "#233",
     height: "100vh",
   },
   heading: {
@@ -24,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
     left: "50%",
     transform: "translate(-50%, -50%)",
     position: "absolute",
+    
   },
   input: {
     color: "#fff",
@@ -64,19 +64,24 @@ const InputField = withStyles({
 const Contact = () => {
   const classes = useStyles();
   return (
-    <Box component="div" className={classes.contactContainer}>
+    <Box  component="div" className={classes.contactContainer}>
       <Grid container justify="center">
         <Box component="form" className={classes.form}>
-          <Typography variant="h5" className={classes.heading}>
-            Hire or Contact me...
-          </Typography>
-          <InputField
+          <center>
+            <Typography style={{ color: 'Maroon' }} className={classes.title} variant="h4">
+              <Typed strings={["Hire or Contact Me..."]} typeSpeed={40} />
+            </Typography>
+          </center>
+          <br></br>
+          {/* <InputField 
+            style={{ background: '#233' }}
             fullWidth={true}
             label="Name"
             variant="outlined"
             inputProps={{ className: classes.input }}
           />
-          <InputField
+          <InputField 
+            style={{ background: '#233' }}
             fullWidth={true}
             label="Email"
             variant="outlined"
@@ -84,21 +89,25 @@ const Contact = () => {
             className={classes.field}
           />
           <InputField
+            style={{ background: '#233' }}
             fullWidth={true}
             label="Message"
             variant="outlined"
             multiline
             rows={4}
             inputProps={{ className: classes.input }}
-          />
-          <Button
-            variant="outlined"
-            fullWidth={true}
-            endIcon={<Send />}
-            className={classes.button}
-          >
-            Contact Me
-          </Button>
+          /> */}
+          <a href="mailto:christiankane@tamu.edu?subject=The%20Opportunity%20of%20a%20Lifetime">
+            <Button
+              style={{ background: '#233' }}
+              variant="outlined"
+              fullWidth={true}
+              endIcon={<Send />}
+              className={classes.button}
+            >
+              Email Me
+            </Button>
+          </a>
         </Box>
       </Grid>
     </Box>

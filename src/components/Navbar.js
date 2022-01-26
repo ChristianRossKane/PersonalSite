@@ -18,13 +18,19 @@ import Home from "@material-ui/icons/Home";
 import Apps from "@material-ui/icons/Apps";
 import ContactMail from "@material-ui/icons/ContactMail";
 import { makeStyles } from "@material-ui/core/styles";
-import avatar from "../avatar.png";
+import avatar from "../avatar.jpg";
+import TextField from "@material-ui/core/TextField";
+import Grid from "@material-ui/core/Grid";
+import Button from "@material-ui/core/Button";
+import Typed from "react-typed";
+
+import Send from "@material-ui/icons/Send";
 
 import Footer from "../components/Footer";
 
 const useStyles = makeStyles((theme) => ({
   appbar: {
-    background: "#222",
+    background: "#3F1414",
     margin: 0,
   },
   arrow: {
@@ -35,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
   },
   menuSliderContainer: {
     width: 250,
-    background: "#511",
+    background: "#3F1414",
     height: "100%",
   },
   avatar: {
@@ -53,7 +59,7 @@ const menuItems = [
   { listIcon: <Home />, listText: "Home", listPath: "/" },
   { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
   { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
-  { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
+  { listIcon: <ContactMail />, listText: "Email Me", listPath: "/contact" },
 ];
 
 const Navbar = () => {
