@@ -124,7 +124,7 @@ const Resume = () => {
       <Typography style={{ color: 'Maroon' }} className={classes.title} variant="h4">
         <Typed strings={["My Resume"]} typeSpeed={40} />
       </Typography>
-      <Typography style={{ color: 'Maroon' }} className={classes.title} variant="h6">
+      <Typography style={{ color: 'Black' }} className={classes.title} variant="h6">
         <Typed strings={["Click to Download"]} typeSpeed={40} />
       </Typography>
       <br></br>
