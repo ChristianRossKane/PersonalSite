@@ -69,7 +69,7 @@ const Contact = () => {
         <Box component="form" className={classes.form}>
           <center>
             <Typography style={{ color: 'Maroon' }} className={classes.title} variant="h4">
-              <Typed strings={["Hire or Contact Me..."]} typeSpeed={40} />
+              <Typed strings={["Contact Me..."]} typeSpeed={40} />
             </Typography>
           </center>
           <br></br>
