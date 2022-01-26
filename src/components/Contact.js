@@ -71,6 +71,12 @@ const Contact = () => {
             <Typography style={{ color: 'Maroon' }} className={classes.title} variant="h4">
               <Typed strings={["Contact Me..."]} typeSpeed={40} />
             </Typography>
+            <Typography style={{ color: 'black' }} className={classes.title} variant="h5">
+              <Typed strings={["christiankane@tamu.edu"]} typeSpeed={40} />
+            </Typography>
+            <Typography style={{ color: 'black' }} className={classes.title} variant="h5">
+              <Typed strings={["(832)364-7271"]} typeSpeed={40} />
+            </Typography>
           </center>
           <br></br>
           {/* <InputField 
