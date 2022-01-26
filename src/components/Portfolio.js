@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "General Engineering Lab - Fall 2019",
+    name: "General Engineering Lab",
     description: `All students entering engineering at Texas A&M had to
     take this course and, while it may not be readily apparent based
     on the course's title, this was an introduction to the basics of 
@@ -51,7 +51,7 @@ const projects = [
     link: "",
   },
   {
-    name: "Engineering Math III - Spring 2020",
+    name: "Engineering Math III",
     description: `This was the third level of Calculus that A&M offered.
     Here, I learned a great deal about doing calculus in three dimensions,
     applying fundamentals learned in Calculus I & II and in Linear Algebra.`,
@@ -59,7 +59,7 @@ const projects = [
     link: "",
   },
   {
-    name: "Data Structures and Algorithms - Fall 2020",
+    name: "Data Structures and Algorithms",
     description: `I had been exposed to some basic data structures before
     this course like arrays, queues, stacks, etc., but I had not learned
     about most tree data structures and the applications of all aforementioned
@@ -72,7 +72,7 @@ const projects = [
     link: "",
   },
   {
-    name: "Computer Organization - Fall 2020",
+    name: "Computer Organization",
     description: `This course was a curveball from everything I had learned
     before: we had to build a simple computer from-scratch in Assembly and 
     HACK languages. This class challenged me like no class had before as we
@@ -87,7 +87,7 @@ const projects = [
     link: "",
   },
   {
-    name: "Introduction to Computer Systems - Spring 2021",
+    name: "Introduction to Computer Systems",
     description: `This course piggy-backed off of Computer Organization
     and delved more into practical applications of we had learned. We
     took a deep dive into parallelism in computing and multi-threading,
@@ -99,7 +99,7 @@ const projects = [
     link: "",
   },
   {
-    name: "Programming Studio - Spring 2021",
+    name: "Programming Studio",
     description: `College finally felt like college. I had to take everything
     that I had learned beforehand and apply it in multiple month-long projects.
     This class was meant to give students exposure to true software development
@@ -114,7 +114,7 @@ const projects = [
     link: "http://cakao.herokuapp.com/",
   },
   {
-    name: "Design and Analysis of Advanced Algorithms - Spring 2021",
+    name: "Design and Analysis of Advanced Algorithms",
     description: `This was my first 400-level course and I really felt it.
     No longer did I feel as if I was being taught fundamentals, I had to
     understand based on truly complex reasoning and theory that I had no
@@ -127,7 +127,7 @@ const projects = [
     link: "",
   },
   {
-    name: "Parallel Computing - Summer 2021",
+    name: "Parallel Computing",
     description: `This elective built directly off of Computer Systems and
     allowed students to harness the power of Texas A&M Supercomputers and
     was primarily focused on optimizing multi-threaded programs. It was a
@@ -138,7 +138,7 @@ const projects = [
     link: "",
   },
   {
-    name: "Artificial Intelligence - Fall 2021",
+    name: "Artificial Intelligence",
     description: `It would be more accurate to call this class 'The
     Theoretical Underpinning of AI' as we did not employ any Artificial
     Intelligence (besides an incredibly simple perceptron near the end),
@@ -150,7 +150,7 @@ const projects = [
     link: "",
   },
   {
-    name: "Software Engineering - Fall 2021",
+    name: "Software Engineering",
     description: `We had established what it was like to practice different
     software development ideologies in Programming Studio, but we did them
     for predefined projects that nobody would end up using... In Software
@@ -166,7 +166,7 @@ const projects = [
     link: "tx.ag/nickwork",
   },
   {
-    name: "Honors Computer & Network Security - Fall 2021",
+    name: "Honors Computer & Network Security",
     description: `I decided to take the Honors section of A&M's course on
     Computer and Network security which entailed exactly what you would
     expect. Most of classtime was spent learning about security and the
@@ -179,7 +179,7 @@ const projects = [
     link: "https://docs.google.com/presentation/d/190AfwEFKpO0JIHveLLK3MxM1NYKPn79KsrLRMkvjPmM/edit#slide=id.p",
   },
   {
-    name: "Communications and Cryptography I - Fall 2021",
+    name: "Communications and Cryptography I",
     description: `Though I did not plan for it, this class made my Computer
     and Network Security much easier as it established the mathematics behind
     modern encryption algorithms like RSA and El Gamal Public Key Cryptosystems
@@ -190,7 +190,7 @@ const projects = [
     link: "",
   },
   {
-    name: "Undergraduate Peer Teacher - Fall 2021",
+    name: "Undergraduate Peer Teacher",
     description: `Alongside 5 Senior electives, I decided to work for the
     Computer Science department my first semester of senior year. I acted
     as an undergraduate TA for Programming Studio, alongside hosting office
@@ -222,7 +222,7 @@ const projects = [
     link: "",
   },
   {
-    name: "This Website!",
+    name: "This Website",
     description: `Coming into my final semester, I felt as if I didn't have
     a centralized place to compile all of my work, projects, and resume in
     a visually appealing manner. Furthermore, I had not been exposed to React
@@ -242,10 +242,10 @@ const Portfolio = () => {
     <center>
       <br></br>
       <Typography style={{ color: 'Maroon' }} className={classes.title} variant="h4">
-        <Typed strings={["My Funadmental Courseload"]} typeSpeed={40} />
+        <Typed strings={["My Fundamental Courseload"]} typeSpeed={40} />
       </Typography>
       <Typography style={{ color: 'Maroon' }} className={classes.title} variant="h5">
-        <Typed strings={["and relevant work 🙲 projects..."]} typeSpeed={40} />
+        <Typed strings={["and relevant work w/ projects..."]} typeSpeed={40} />
       </Typography>
     </center>
     <Box component="div" className={classes.mainContainer}>

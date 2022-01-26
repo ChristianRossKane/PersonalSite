@@ -54,7 +54,15 @@ const Footer = () => {
       </BottomNavigation>
     </a>
 
-    
+    <a href="https://www.instagram.com/christian.kane/" target="_blank">
+      <BottomNavigation className={classes.bottomNavContainer}>
+        
+          <BottomNavigationAction 
+            icon={<Instagram />} 
+            className={classes.root}
+          />
+      </BottomNavigation>
+    </a>
     </>
   );
 };
